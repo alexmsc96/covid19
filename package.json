@@ -1,6 +1,6 @@
 {
   "name": "covid-tracker",
-  "homepage": "https://alexmsc96.github.io",
+  "homepage": "https://alexmsc96.github.io/covid19/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
