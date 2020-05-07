@@ -1,0 +1,29 @@
+body {
+  background: rgb(238, 238, 238);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  max-width: 30%;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .logo {
+    min-width: 100%;
+  }
+}

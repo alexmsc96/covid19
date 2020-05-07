@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+  width: 50%;
+  margin: 2rem 0;
+  min-height: 100vh;
+  color: #3e4588;
+}
+
+@media (max-width: 770px) {
+  .container {
+    font-size: .5rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+}

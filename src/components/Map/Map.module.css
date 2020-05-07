@@ -1,0 +1,23 @@
+.marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.pin {
+  width: 1.5rem;
+}
+
+.map {
+  height: 50vh;
+  width: 50%;
+  margin: 2vh 0vh 5vh 0;
+}
+
+@media (max-width: 770px) {
+  .map {
+    width: 100%;
+  }
+}

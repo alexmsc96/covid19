@@ -1,0 +1,14 @@
+.FormControl {
+  width: 30%;
+  margin: 2rem 0 !important;
+}
+
+.NativeSelect {
+  text-align: center !important;
+}
+
+@media (max-width: 770px) {
+  .FormControl {
+    width: 100%;
+  }
+}
