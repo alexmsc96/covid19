@@ -28,7 +28,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className={styles.container}>
           <img className={styles.logo} src={Covid19Logo} alt="Covid-19" />
           <Nav />
