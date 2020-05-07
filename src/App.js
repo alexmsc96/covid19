@@ -33,7 +33,7 @@ class App extends React.Component {
           <img className={styles.logo} src={Covid19Logo} alt="Covid-19" />
           <Nav />
           <Switch>
-            <Route exact path="covid19/" component={this.homePage} />
+            <Route exact path="/" component={<Map />} />
             <Route path="/news" component={News} />
             <Route path="/charts" component={Chart} />
           </Switch>
